@@ -17,6 +17,7 @@ namespace ComputerScienceFinal
                 item = num;
             }
         }
+        // khởi tạo Stack theo Linked List
         class StackLinkedList
         {
             public Node head;
@@ -25,6 +26,7 @@ namespace ComputerScienceFinal
                 this.head = null;
                 
             }
+            // khởi tạo hàm đưa phần tử vào stack
             public void Push(int num)
             {
                 Node newNode = new Node(num);
@@ -38,6 +40,7 @@ namespace ComputerScienceFinal
                     head = newNode;
                 }
             }
+            // lấy phần tử đầu của stack ra
             public void Pop()
             {
                 if (head != null)
@@ -50,6 +53,7 @@ namespace ComputerScienceFinal
                     Console.Write("Stack Rỗng");
                 }
             }
+            // xem được giá trị đầu của Stack
             public void Peek()
             {
                 if (head != null)

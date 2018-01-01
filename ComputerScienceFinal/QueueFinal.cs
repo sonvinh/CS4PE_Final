@@ -70,6 +70,7 @@ namespace ComputerScienceFinal
                 Console.Write("Gia tri dau cua hang doi = "+ Head.data);
                 return;
             }
+            // hiện danh sách queue ra
             public void DisplayQueue()
             {
                 Node temp = Head;
@@ -85,6 +86,7 @@ namespace ComputerScienceFinal
                 catch(NullReferenceException){}
             }
        }
+        // hàm sẽ gọi qua Program để chạy Queue
         public static void RunQueue()
         {
             Queue q = new Queue();

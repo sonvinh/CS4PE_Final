@@ -23,6 +23,7 @@ namespace ComputerScienceFinal
             }
             //
             int temp = 0;
+            // sắp xếp theo Bubble sort
             for (int i = 0; i < arr.Length; i++)
             {
                 for (int j = 0; j < arr.Length; j++)
