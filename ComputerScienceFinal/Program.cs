@@ -11,11 +11,19 @@ namespace ComputerScienceFinal
  
        public static void Main(string[] args)
         {
-            StackFinal.RunStack();
+           //------Chay Bubble Sort----//
+               //BubbleSort.Sort();
+
+          //------Chay Bubble Sort----//
+            //StackFinal.RunStack();
+
+         //------Chay Queue----//
             //QueueFinal.RunQueue();
-            //BubbleSort.Sort();
-            Console.ReadKey();
-           
+
+        //------Chay Tree----//  
+            //TreeFinal.RunTree();
+            
+           Console.ReadKey();
         }
     }
 }

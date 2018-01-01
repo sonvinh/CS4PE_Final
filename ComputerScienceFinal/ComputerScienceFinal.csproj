@@ -46,6 +46,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueueFinal.cs" />
     <Compile Include="StackFinal.cs" />
+    <Compile Include="TreeNODE.cs" />
+    <Compile Include="TreeFinal.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
