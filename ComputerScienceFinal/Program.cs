@@ -14,7 +14,7 @@ namespace ComputerScienceFinal
            //------Chay Bubble Sort----//
                //BubbleSort.Sort();
 
-          //------Chay Bubble Sort----//
+          //------Chay Stack----//
             //StackFinal.RunStack();
 
          //------Chay Queue----//
