@@ -11,7 +11,7 @@ namespace ComputerScienceFinal
         class Tree 
         { 
             public TreeNODE root;
-            public int height; 
+             
 
             public Tree() 
             {

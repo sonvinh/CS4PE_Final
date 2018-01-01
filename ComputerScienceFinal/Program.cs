@@ -22,7 +22,9 @@ namespace ComputerScienceFinal
 
         //------Chay Tree----//  
             //TreeFinal.RunTree();
-            
+
+        //------Chay Tree----//
+            //HashTableFinal.RunHastable();
            Console.ReadKey();
         }
     }
