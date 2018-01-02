@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ThuanCS
+namespace ComputerScienceFinal
 {
     /*Author: Thuan Nguyen
      * Note: Dưới đây mình trình bày những hàm cơ bản của Linked List, và comment giải thích từng dòng
@@ -12,6 +12,11 @@ namespace ThuanCS
      * sau đó xóa bớt comment đi cho đỡ rối mắt!
 	 * Chúc bạn thi tốt
      * */
+     public class Node
+    {
+        public Node Next;
+        public int data;
+    }
     public class LinkedList
     {
         //Gọi cấu trúc Node từ Node.cs
