@@ -48,7 +48,7 @@ namespace ComputerScienceFinal
                 {
                     Console.Write("Hang doi rong");
                 }
-                if (Head == Tail)
+                else if (Head == Tail)
                 {
                     Console.Write("Lay ra khoi hang doi: " + Head.data);
                 }

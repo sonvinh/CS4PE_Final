@@ -10,11 +10,11 @@ namespace ComputerScienceFinal
     {
         class Node
         {
-            public int item;
+            public int data;
             public Node next;
             public Node(int num)
             {
-                item = num;
+                data = num;
             }
         }
         // khởi tạo Stack theo Linked List
@@ -24,7 +24,6 @@ namespace ComputerScienceFinal
             public StackLinkedList()
             {
                 this.head = null;
-                
             }
             // khởi tạo hàm đưa phần tử vào stack
             public void Push(int num)
@@ -45,7 +44,7 @@ namespace ComputerScienceFinal
             {
                 if (head != null)
                 {
-                    Console.Write("Gia tri duoc lay ra: " + head.item);
+                    Console.Write("Gia tri duoc lay ra: " + head.data);
                     head = head.next;
                 }
                 else
@@ -58,7 +57,7 @@ namespace ComputerScienceFinal
             {
                 if (head != null)
                 {
-                    Console.Write("Gia tri dau duoc them: " + head.item);
+                    Console.Write("Gia tri dau duoc them: " + head.data);
                 }
                 else
                 {
@@ -73,7 +72,7 @@ namespace ComputerScienceFinal
                 {
                     while (temp != temp.next)
                     {
-                        Console.Write(temp.item + " ");
+                        Console.Write(temp.data + " ");
                         temp = temp.next;
                     }
                     Console.WriteLine("\n");

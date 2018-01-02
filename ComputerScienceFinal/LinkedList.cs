@@ -13,6 +13,11 @@ using System.Threading.Tasks;
 
 namespace ComputerScienceFinal
 {
+    class Node
+    {
+        public Node Next;
+        public int data;
+    }
     class LinkedList
     {
         //Gọi cấu trúc Node từ Node.cs
