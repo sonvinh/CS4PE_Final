@@ -12,7 +12,7 @@ namespace ComputerScienceFinal
        public static void Main(string[] args)
         {
            //------Chay Bubble Sort----//
-            //BubbleSort.Sort();
+            BubbleSort.Sort();
 
             //------Chay Queue----//
             //QueueFinal.RunQueue();
